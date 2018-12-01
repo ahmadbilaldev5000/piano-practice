@@ -1,0 +1,49 @@
+.randomizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    
+}
+
+.randomizer * {
+    font-family: 'Comfortaa', cursive;
+    color: #ddd;
+}
+
+.title {
+    font-size: 4rem;
+    padding: 2rem;
+    /* border: 1px solid red; */
+}
+
+.note {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    /* flex-grow: 1; */
+    font-size: 15rem;
+    /* border: 1px solid #fff; */
+    /* margin: 5rem; */
+}
+
+.buttonGroup {
+    /* border: 1px solid #fff; */
+    /* flex-grow: 1; */
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: #222;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.button:hover, .button:active, .button:focus {
+    background-color: #ddd;
+    color: #222;
+}
